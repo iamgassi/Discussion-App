@@ -1,0 +1,128 @@
+
+h1
+{
+  font-size: 2vw;
+}
+
+p
+{
+  font-size: 1vw;
+}
+
+input
+{
+  border-radius: 3px;
+}
+
+#firstHead
+{
+  background-color: teal;
+  color: white;
+  width: 100%;
+  padding-bottom: 15px;
+  padding-left: 5px;
+  font-size: 3vw;
+}
+
+.container
+{
+  display: flex;
+  height: auto
+}
+
+.twoBox
+{
+  width: 50%;
+  height: 100%;
+  border: 1px whitesmoke solid;
+  padding: 2%;
+  
+  /* overflow: scroll; */
+}
+
+#questionSearch
+{
+  padding:5px;
+}
+
+#dataList
+{
+  overflow: auto;
+  height: 70vh;
+}
+
+#rightDiv
+{
+  width: 100%;
+  margin : 2px 2px 2px 2px;
+}
+
+#subject
+{
+  width: 10vw;
+}
+
+#question
+{
+  height: 22vh;
+  width: 45vw;
+}
+
+
+#holder
+{
+  display: block;
+
+  padding-left: 4px;
+
+  border-radius: 10px;
+  text-align: left;
+}
+
+#pickComment
+{
+  height: 22vh;
+  width: 45vw;
+  margin-top: 2px;
+}
+
+
+
+#respondAns
+{ 
+    
+  overflow: auto;
+  height: 15vh;
+  margin-bottom: 1vh;
+}
+
+#comments
+{
+  background-color: rgb(252, 239, 182);
+
+}
+
+#resolveHolder
+{
+    display: none;
+  margin:4px;
+}
+
+.resolveQue{
+      float: right;
+      margin: 20px;
+}
+#resolveBtn
+{
+  background-color: #0069d9;
+
+  color: white;
+  padding: 6px;
+  border-radius: 7px;
+}
+
+#icon
+{
+  
+  float: right;
+}
